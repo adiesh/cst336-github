@@ -31,6 +31,10 @@ li{
     margin: 20px 0;
 }
 
+hr {
+    width: 70%;
+}
+
 
 #wrapper {
     width: 950px;
