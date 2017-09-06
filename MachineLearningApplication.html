@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+
+<html>
+
+	<head>
+		<meta charset="utf-8"/>
+		<title>Machine Learning and Sports</title>
+		
+		<link href="styles.css" rel="stylesheet" type="text/css" />
+		
+		
+	</head>
+	
+	<body>
+		<div id = "wrapper">
+		<header>
+			<h1>Machine Learning and Sports</h1>	
+		</header>
+		<nav>
+			<hr width = "70%" />
+			<a href = "WelcomePage.html">Home</a>
+			<a href = "AboutMachineLearning.html">About Machine Learning</a>
+			<a href = "MachineLearningApplication.html">Machine Learning and Sports</a>
+			<a href = "ExamplesOfMachineLearning.html">Examples of Machine Learning in Sports</a>	
+		</nav>
+		
+		<br><br />
+	
+		
+		<main>
+			<div class = "section"> <!-- class: to break up our paragraphs into sections -->
+				<div id = "machineLearningSports" class="description-text"> 
+					<p>Machine learning can be applied to wide variety of events, from elections to sporting events.</p>
+					<p>If any of you saw <span class = "italicized">Back to the Future Part II</span> movie, the antagonist Biff Tannen had a book called <span class = "italicized">"Grays Sports Almanac"</span> which had the outcome of <strong>every sporting event</strong> from 1950 to the year 2000.</p>
+					<p>Biff became very wealthy since he could bet on every sporting event within that timeframe. </p>
+				
+					<br><br />
+					
+				</div>	
+				
+				<!-- class: used to place images with paragraphs accordingly. --> 	
+				<figure id = "GraysSportsAlmnac" class="section-image">
+					<img src = "Almanacfront.jpg" alt = "Gray's Sports Almanac Cover"/>
+					<p>(<span class = "italicized">"Grays Sports Almnac"</span> from <span class = "italicized">Back to the Future Part II)</p>
+				</figure>
+				<div class = "clear"></div>
+			
+			</div>
+		
+			<div class = "section">
+				<div id = "KeepInMind" class="description-text">
+					<p>The closest thing to the <span class = "italicized">"Grays Sports Almanac"</span> would be using Machine Learning that can predict these contests.</p>
+					<p>Humans tend to have a bias for certain teams or players due to previous accomplishments.</p>	
+					<p>Through machine learning, we can make better recruitment to assess the best options.</p>
+					<br><br />
+					
+				</div>
+				<figure id = "machinelearning" class="section-image">
+					<img src = "machine_learning.jpg" alt = "machinelearning"/>
+				</figure>
+				<div class="clear"></div>
+			</div>
+			
+			
+			
+			<div class = "section">
+				<div id = "Method">
+					<span class = "italicized"><span class = "underlined"><strong>The Method:</strong></span></span>
+					<br><br />
+					<p><span class = "italicized"><span class = "underlined"><strong>The first stage</strong></span></span> of putting together a model would be to <strong>gather data from previous contests.</strong></p>
+					<p>This means looking at each team's previous records over the last couple years. <strong>Keep in mind</strong> regarding the following: </p>
+				
+					<table>
+						<tr id = "headerName">
+							<th><strong>Factors:</strong></th>
+							<th><strong>Reasons:</strong></th>
+						</tr>
+						<tr class = "rows">
+							<td>Margin of the Victory</td>
+							<td>How many points did that particular team win or lose by?</td>
+						</tr>
+						<tr class = "rows">
+							<td>Points scored per quarter</td>
+							<td>Some teams score more or less throughout the game. They gain a significant lead from the start, or had to comeback to win games.</td>
+						</tr>
+						<tr class = "rows">
+							<td>Player's stats</td>
+							<td>A player's rushing, passing, or receiving yards. How well did he perform against certain teams?</td>
+						</tr>
+						<tr class = "rows">
+							<td>Player's injury history</td>
+							<td>Injuries or surgical procedures a player went through. How many games were or will be missed due to injury?</td>
+						</tr>
+						<tr class = "rows">
+							<td>Team's lineup</td>
+							<td>Lineups are bound to change due to injury or suspensions.</td>
+						</tr>
+						<tr class = "rows">
+							<td>Divisional or Non-Conference Game</td>
+							<td>Divisional contests are much more competitive since your record heavily depends on wins within the division, and each team meets twice. Non-conference games tend to be not as competitive as divisional contests.</td>
+						</tr>
+						<tr class = "rows">
+							<td>Location of Contest</td>
+							<td>Home or away game? Home has the advantage. Air levels can vary. Denver is 1 mile above sea-level, while some games occur in Mexico City in recent years (7,200 feet above sea-level)</td>
+						</tr>
+							<tr class = "rows">
+							<td>Attendance</td>
+							<td>Did the stadium have full attendance? Certain stadium's acoustics are very loud, making it difficult to make proper calls</td>
+						</tr>
+						<tr class = "rows">
+							<td>Weather conditions</td>
+							<td>Wind and snow makes it difficult to make field goals. Rain makes it difficult to throw the ball.</td>
+						</tr>
+					</table>
+				
+			
+					<p>There are other factors you can keep in mind, but all of these could help play a role in the outcome of a specific contest.</p>
+			
+					<p><span class = "italicized"><span class = "underlined"><strong>The second stage</strong></span></span> of putting a model together would be analyzing social media.</p>
+					<p>Social Media used were:</p>
+				
+					<!-- Figure out a way to shift -->
+					<ul>
+						<li>Twitter</li>
+						<li>Facebook</li>
+						<li>YouTube</li>
+					</ul>
+					<p>Going through these social media websites can help predict outcomes with more accuracy.</p>
+					<p>The model picks up on what social media users are saying regarding: </p>
+					<ul>
+						<li>Injuries</li>
+						<li>Suspensions</li>
+						<li>Changes to a lineup</li>
+						<li>Controversies</li>
+						<li>Weather conditions in a given region.</li>
+					</ul>
+				</div>	
+			
+			</div>
+		</main>
+		
+		<div id = "footer">
+			<hr>
+			CST 336. 2017&copy; Diesh <br />
+			
+			<figure id = "CSUMB_Logo">
+                <img src = "csumb_logo.jpg" alt = "CSUMB logo"/> 
+            </figure>
+		</div>
+		</div>
+            
+    </body>
+            
+		
+</html>

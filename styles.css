@@ -1,0 +1,167 @@
+body{
+    background-color:green;
+    color:gold; 
+}
+
+header, nav {
+    text-align: center;
+}
+
+
+
+main, figure{
+    text-align: left;
+    
+}
+
+nav a { /* links within "nav" container */
+    padding:15px;
+    padding-bottom:4px;
+    font-size: 1em;
+    text-decoration: none /* removes underline */
+}
+
+nav a:hover { /* psuedo class: only applies styles going over that element. */
+    border-bottom: 1px red solid;
+    font-size: 1.5em;
+    transition: .9s; /* transition effect */
+}
+
+li{
+    margin: 20px 0;
+}
+
+
+#wrapper {
+    width: 950px;
+    margin: 0px auto;
+}
+
+#footer {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+#CSUMB_Logo {
+    margin: auto;
+    width: 450px;
+    
+}
+
+
+.underlined {
+    text-decoration: underline;
+}
+
+.italicized{
+    font-style: italic;
+}
+
+
+
+/* code from WelcomePage.html */
+
+#welcomeMessage {
+    float: left;
+    width: 55%;
+    /*font-size: 50px;*/
+    
+    font-size: 20px;
+}
+
+/* image */
+
+#NFL{
+    float: right;
+    width: 35%;
+    height: 20%;
+}
+
+/* code from AboutMachineLearning.html */
+
+#whatIsMachineLearning{
+    float: left;
+    width:40%;
+    font-size: 18px;
+}
+
+
+/* image */
+
+#images{
+    float: right;
+    width: 40%;
+    margin-left: 4px;
+}
+
+
+/* code from MachineLearningApplication.html */
+
+
+/* classes */
+
+.description-text {
+    float:left;
+    width: 40%;
+    font-size:20px;
+}
+
+
+.section-image {
+    float: right;
+    width: 40%;
+}
+
+
+.clear {
+    clear: both;
+}
+
+
+#Method {
+    float: none;
+    font-size: 20px;
+}
+
+/* table */
+
+.rows {
+    background-color: black;
+    font: black;
+    text-align: left;
+}
+
+#headerName {
+    background-color: blue;
+}
+
+td {
+  padding-right: 25px;  
+}
+
+td strong {
+    color: orange;
+}
+
+ul {
+    text-align: left;
+}
+
+
+/* code for ExamplesOfMachineLearning.html */
+
+#left-col {
+    float:left;
+    width: 40%;
+    font-size: 20px;
+}
+
+
+#right-col {
+    float:right;
+    width: 50%;
+    margin-right: 4px;
+}
+
+
